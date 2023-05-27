@@ -7,11 +7,11 @@ import (
 
 func main() {
 	var numeroescolhido int
+	fmt.Println("Seja bem-vindo ao jogo da advinhação!!!!!! ")
+	fmt.Println("Neste jogo sera gerado um número aleatório e o jogador deve acertar este número")
 	for {
 		NA := rand.Intn(100) + 1
 		t := 0
-		fmt.Println("Seja bem-vindo ao jogo da advinhação!!!!!! ")
-		fmt.Println("Neste jogo sera gerado um número aleatório e o jogador deve acertar este número")
 		fmt.Print("Digite um número entre 1 a 100: ")
 		fmt.Scan(&numeroescolhido)
 
